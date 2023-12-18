@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to CPS3740 project demo</title>
+  </head>
+  <body>
+    <br />
+    Welcome to Ivan CPS3740 project.
+    <br />
+    <br />
+    <a href="view_customers.php" target="_blank">View all customers</a>
+    <br />
+    Search product name (enter * to show all products):
+    <form action="search_products.php" method="get">
+      <input type="text" name="keyword" required="required" />
+      <input type="submit" value="Search" />
+    </form>
+    <br />
+    <form action="login.php" method="post">
+      Login ID: <input type="text" name="username" required="required" />
+      <br />
+      Password: <input type="password" name="password" required="required" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <hr />
+    Below is just for reference, NOT part of the project.
+    <br />
+    You should download the following files for the projects, and rename their
+    extensions to *.php.
+    <ul>
+      <li>
+        <a href="dbconfig.ext">dbconfig</a> - set up your database environment
+        variables for the projects.
+      </li>
+    </ul>
+  </body>
+</html>
